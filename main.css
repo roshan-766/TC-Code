@@ -1,0 +1,49 @@
+html , body 
+{
+    margin:0%;
+    border:0%;
+    padding:0%;
+    background-color:black
+}
+
+.side_bar
+{
+    margin:0;
+    background-color: rgb(27, 27, 27);
+    padding-bottom:355px;
+}
+
+.logo
+{
+    color:rgb(255, 255, 255);
+    background-color: rgb(80, 0, 146);
+    margin-top:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 70px;
+    font-family: FreeMono, monospace;
+    font-size:40px
+}
+
+.prv_problems
+{
+    color:white;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 70px;
+    font-family: FreeMono, monospace;
+    font-size:15px
+}
+
+.leaderboard
+{
+    color:white;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 70px;
+    font-family: FreeMono, monospace;
+    font-size:15px
+}
