@@ -1,0 +1,178 @@
+html , body 
+{
+    margin:0%;
+    border:0%;
+    padding:0%;
+    background-color:black;
+    display:flex;
+}
+
+.side_bar
+{
+    margin:0;
+    background-color: rgb(27, 27, 27);;
+    width:300px;
+    height:100%;
+    grid-row-start:1;
+    grid-row-end:13;
+    grid-column-start:1;
+    grid-column-end:7 ;
+    
+}
+
+.side_bar_logo
+{
+    color:rgb(255, 255, 255);
+    background-color: rgb(115, 1, 209);
+    margin-top:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-bottom: 40px;
+    font-family: FreeMono, monospace;
+    font-size:40px;
+    border-radius: 20px;
+}
+
+.side_bar_text
+{
+    color:white;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 70px;
+    font-family: FreeMono, monospace;
+    font-size:100%;
+}
+
+.side_bar_profile_heading
+{
+   color:white;
+   margin-top: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 70px;
+    font-family: FreeMono, monospace;
+    font-size:100%;
+    color: rgb(140, 0, 255); 
+}
+
+.side_bar_profile_image
+{
+    width:50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side_bar_profile_name
+{
+    padding-left: 10px;
+    font-size: 100%;
+    font-family: FreeMono, monospace;
+    color:white;
+}
+
+.side_bar_profile_logout
+{
+    padding-left: 60px;
+    font-size: 70%;
+    font-family: FreeMono, monospace;
+    color:white;
+}
+
+.banner_image
+{
+    margin:0;
+    background-color: rgb(48, 48, 48);;
+    width:950px;
+    height:150px;
+    border-radius: 10px;
+    grid-row-start:2;
+    grid-row-end:6;
+    grid-column-start:8;
+    grid-column-end:23 ;
+}
+
+.problem_set
+{
+   margin:0;
+    background-color: rgb(48, 48, 48);;
+    width:950px;
+    height:340px;
+    border-radius: 10px;
+    grid-row-start:6;
+    grid-row-end:12;
+    grid-column-start:8;
+    grid-column-end:13 ;
+    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none
+}
+.problem_set::-webkit-scrollbar {
+    display: none;
+}
+
+.continer
+{
+    display:grid;
+    grid-template-rows:50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-columns:50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px  50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+}
+
+.problem_c
+{
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background-color: rgb(59, 59, 59);
+    margin-top: 20px;
+    margin-left:10px;
+    
+}
+
+.problem_l
+{
+    color:white;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    padding-right: 137px;
+    padding-top: 5px;
+    font-size: 13px;
+    text-align: justify;
+
+    
+}
+.problem_c tr:nth-child(even) td {
+    background-color: #3b3b3b;
+}
+
+.problem_c tr:nth-child(odd) td {
+    background-color:   #383838;
+}
+
+.problem_c td {
+    padding: 10px;
+     /* optional rounded look */
+    color: white;
+}
+
+.problem_head
+{
+    font-family: "Gill Sans Extrabold", sans-serif;
+    padding-left: 70px;
+    padding-right: 90px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.problem_l2
+{
+    color:rgb(102, 255, 0);
+    font-family: "Gill Sans Extrabold", sans-serif;
+    padding-right: 137px;
+    padding-top: 5px;
+    font-size: 13px;
+    text-align: justify;
+}
